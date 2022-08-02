@@ -35,6 +35,6 @@ int main(){
 	        printf("\t\tXato! %d %c %d = %d buladi!\n",r_1,amal1,r_2,res);
 	    }
 	}
-	printf("\tSiz %d ta savolga tugri javob berdingiz\n",qw);
+	printf("\t\tSiz %d ta savolga tugri javob berdingiz\n",qw);
 	return 0;
 }
