@@ -11,9 +11,9 @@ int main(){
 	scanf("%d",&b);
 	for(int i = 1;i<=b;i++){
 	    printf("Savol %d\n",i);
-	    r_1 = rand()%10+1;
-	    r_2 = rand()%10+1;
-	    amal = rand()%4;
+	    r_1 = rand()%100+1;
+	    r_2 = rand()%100+1;
+	    amal = rand()%4;// 0 = '+' 1
 	    if(amal == 0){
 	        res = r_1+r_2;
 	        amal1 = '+';
@@ -35,6 +35,6 @@ int main(){
 	        printf("\t\tXato! %d %c %d = %d buladi!\n",r_1,amal1,r_2,res);
 	    }
 	}
-	printf("\t\tSiz %d ta savolga tugri javob berdingiz\n",qw);
+	printf("\t\t\tSiz %d ta savolga tugri javob berdingiz\n",qw);
 	return 0;
 }
